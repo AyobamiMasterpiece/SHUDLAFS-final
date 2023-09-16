@@ -2,3 +2,147 @@
   font-family: sans-serif;
   text-align: center;
 }
+.nav-bar{
+  background-color: white;
+  display:flex;
+  align-items: center;
+  padding:10px;
+  width:90%;
+  margin:auto;
+  
+ 
+  
+}
+
+*{
+  box-sizing: border-box;
+  font-size:15px;
+  font-family: Manrope;
+}
+body{
+  margin:0;
+  border:0;
+  font-family: Manrope;
+}
+.logo{
+
+  margin-left:50px
+}
+.link-container{
+display:flex;
+align-items:center;
+
+ margin-left: 60%;
+}
+a{
+  margin:10px 10px;
+  text-decoration: none;
+  color: black;
+  padding:5px;
+ color:black;
+  font-size: 15px;
+
+
+}
+button{
+  background-color: black;
+  color:white;
+  padding:10px 40px;
+  border-color:white;
+  border-width:0 ;
+  border-radius: 10px;
+  margin: 10px;
+  width:fit-content
+}
+
+.main-background{
+  background-image:url('./img/foodbackground.webp');
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  width:90%;
+  margin:auto
+
+}
+
+.main-background-child{
+
+  display:flex;
+
+
+  flex-direction:column;
+  align-items:flex-start;
+  
+  
+ /* margin-bottom: 120px; */
+
+
+ 
+}
+.main-background-child p{
+  font-size:40px;
+ font-weight: bold;
+  width:70%;
+
+  text-align: left;
+  margin:0px;
+}
+.main-background-child button{
+  /* width:20% */
+  padding:20px 50px;
+  background-color:#FF0000;
+  border-radius: 45px; 
+}
+
+
+.section{
+  height:100vh;
+ 
+  display:flex;
+  align-items:center;
+  width: 90%;
+  margin:auto
+
+}
+.first-section{
+  /* background-color: red; */
+  width:50%;
+  height:70%;
+}
+.first-section h2{
+  /* background-color:pink; */
+  text-align: left;
+  dsplay:flex;
+  flex-direction: row;
+}
+
+.section-container{
+  /* background-color: pink; */
+  display:flex;
+  flex-direction:column;
+}
+.sectionlistp{
+  text-align: left;
+}
+
+.sectionlistnum{
+margin-right: 10px;
+background-color:red;
+border-radius: 50%;
+width:30px;
+height:30px;
+padding:0px;
+}
+.section-item{
+  display:flex;
+  flex-direction:row;
+  margin-bottom:1rem
+}
+.img-container{
+
+  height: 100%;
+  width:40%;
+  margin-left: 10%;
+  background-image: url('../');
+  
+  }
