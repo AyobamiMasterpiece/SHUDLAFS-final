@@ -39,11 +39,13 @@ export default function App() {
             marginBottom :'120px'}
           }>
             <p>The food you love, delivered fast</p>
-            <Button title='Get the app'e='Get the app'ee='Get the app'e/>
+            <Button title='Get the app'/>
           </div>
         </div>
 
      <Fancysection heading={'Make money with food delivery'}/>
+     <Fancysection heading={'Boost your sales'}/>
+     <Fancysection heading={'Discover, order, and track in the app'}/>
     </div>
   );
 }

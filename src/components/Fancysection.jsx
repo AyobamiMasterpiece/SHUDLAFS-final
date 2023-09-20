@@ -20,9 +20,7 @@ export default function Fancysection({heading}){
             </div>
           
         </div>
-        <div className="img-container" style={{
-            backgroundImage:'url("./img/logo2.png")',
-        }}>
+        <div className="img-container" >
           
         </div>
         </div>
